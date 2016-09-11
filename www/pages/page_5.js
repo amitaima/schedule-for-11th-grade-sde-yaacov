@@ -19,32 +19,32 @@ var h3 = tabris.create("TextView", {
 }).appendTo(page);
 
 var h4 = tabris.create("TextView", {
-	text: '11:00-11:45  |  תושב"ע',
+	text: '11:05-11:50  |  תושב"ע',
 	layoutData: {centerX: 0, top: [h3, 15]}
 }).appendTo(page);
 
 var h5 = tabris.create("TextView", {
-	text: '11:55-12:40  |  תושב"ע',
+	text: '12:00-12:45  |  תושב"ע',
 	layoutData: {centerX: 0, top: [h4, 15]}
 }).appendTo(page);
 
 var h6 = tabris.create("TextView", {
-	text: '12:40-13:40  |  ארוחת צהריים',
+	text: '12:45-13:30  |  ארוחת צהריים',
 	layoutData: {centerX: 0, top: [h5, 15]}
 }).appendTo(page);
 
 var h7 = tabris.create("TextView", {
-	text: '13:35-14:20 |  חינוך',
+	text: '13:45-14:30 |  חינוך',
 	layoutData: {centerX: 0, top: [h6, 15]}
 }).appendTo(page);
 
 var h8 = tabris.create("TextView", {
-	text: '14:30-15:15  |  תנ"ך',
+	text: '14:35-15:20  |  תנ"ך',
 	layoutData: {centerX: 0, top: [h7, 15]}
 }).appendTo(page);
 
 var h9 = tabris.create("TextView", {
-	text: '15:25-16:10  |  חינוך גופני',
+	text: '15:30-16:15  |  חינוך גופני',
 	layoutData: {centerX: 0, top: [h8, 15]}
 }).appendTo(page);
 
