@@ -24,7 +24,7 @@ var h4 = tabris.create("TextView", {
 }).appendTo(page);
 
 var h5 = tabris.create("TextView", {
-	text: '11:50-12:45  |  ארוחת צהריים',
+	text: '12:00-12:45  |  ארוחת צהריים',
 	layoutData: {centerX: 0, top: [h4, 15]}
 }).appendTo(page);
 
