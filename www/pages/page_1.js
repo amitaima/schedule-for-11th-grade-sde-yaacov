@@ -19,12 +19,12 @@ var h3 = tabris.create("TextView", {
 }).appendTo(page);
 
 var h4 = tabris.create("TextView", {
-	text: '11:00-11:45  |  ביולוגיה/פיסיקה/תקשורת',
+	text: '11:05-11:50  |  ביולוגיה/פיסיקה/תקשורת',
 	layoutData: {centerX: 0, top: [h3, 15]}
 }).appendTo(page);
 
 var h5 = tabris.create("TextView", {
-	text: '11:45-12:45  |  ארוחת צהריים',
+	text: '11:50-12:45  |  ארוחת צהריים',
 	layoutData: {centerX: 0, top: [h4, 15]}
 }).appendTo(page);
 
@@ -34,17 +34,17 @@ var h6 = tabris.create("TextView", {
 }).appendTo(page);
 
 var h7 = tabris.create("TextView", {
-	text: '13:35-14:20 |  ביולוגיה/פיסיקה/תקשורת',
+	text: '13:45-14:30 |  ביולוגיה/פיסיקה/תקשורת',
 	layoutData: {centerX: 0, top: [h6, 15]}
 }).appendTo(page);
 
 var h8 = tabris.create("TextView", {
-	text: '14:30-15:15  |  מתמטיקה',
+	text: '14:35-15:20  |  מתמטיקה',
 	layoutData: {centerX: 0, top: [h7, 15]}
 }).appendTo(page);
 
 var h9 = tabris.create("TextView", {
-	text: '15:25-16:10  |  מתמטיקה',
+	text: '15:30-16:15  |  מתמטיקה',
 	layoutData: {centerX: 0, top: [h8, 15]}
 }).appendTo(page);
 
